@@ -1,0 +1,35 @@
+body {
+	font-family:Courier;
+	background-color:#ADD8E6;
+
+}
+
+h2 {
+	color: #ffffff;
+	/*background-color:#003366;*/
+}
+
+.bio{
+	text-align: center;
+}
+
+.pic{
+	border-radius:30%;
+	/*border: solid 5px #003366;*/
+	border-bottom: solid 5px #003366;
+}
+
+#legend {
+	background-color:#003366;
+	width: 300px;
+	text-align: center;
+	border-radius:20%;
+	display: inline-block;
+	margin-bottom: 10px;
+	font-size: 0.7rem;
+}
+
+#tableHead {
+	background-color:#003366;
+	color: #ffffff;
+}
