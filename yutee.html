@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="description" content="Utibe Okon CV">
+  	<meta name="keywords" content="Resume, CV, Utibe, Okon, Utibe Okon">
+  	<meta name="author" content="Utibe Okon">
 	<title>Utibe Okon CV</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="contact_action.js"></script>
 </head>
 <body>
 	<div class="bio">
 		<div id="legend"><h2>CURRICULUM VITAE</h2></div>
 		<div>
-		<img class="pic" src="https://res.cloudinary.com/yutee/image/upload/v1566997725/yutee.png" width="150px" height="150px">
+		<img class="pic" src="images/yutee.png" width="150px" height="150px">
 		</div>
 		<p style="color:#003366;">
 		<strong>Name:</strong> Okon Utibe Ekom 
@@ -26,7 +30,7 @@
 	</div>
 	<br>
 	<br>
-	<div align="center";>
+	<div class="tablediv" align="center";>
 		<table style="color:#003366;" style="width:100%">
 			<tr id="tableHead">
 				<th>WORK EXPERIENCE</th>
@@ -61,6 +65,60 @@
 				</td>
 			</tr>
 		</table>
+		<br>
+		<br>
+		<br>
+
+ 	<div class="buttondiv" align="center";>
+		<!-- Trigger/Open The Modal -->
+			<button id="myBtn">CONTACT UTIBE</button>
+
+		<!-- The Modal -->
+			<div id="myModal" class="modal">
+
+  		<!-- Modal content -->
+  			<div class="modal-content">
+    			<span class="close">&times;</span>
+    			<!-- This is the form -->
+		<div>
+            <form action="" method="post" id="contact-form">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="form-group">
+                    <label for="name" class="sr-only">NAME:</label>
+                    <br>
+                    <input type="text" class="form-control input-lg" id="name" name="name" placeholder="Name" value="" minlength=4>
+                  </div>
+                </div>
+                <div>
+                  <div class="form-group">
+                    <label for="email" class="sr-only">EMAIL:</label>
+                    <br>
+                    <input type="email" class="form-control input-lg" id="email" name="email" placeholder="Email" value="">
+                  </div>
+                </div>
+                <div>
+                  <div class="form-group">
+                    <label for="subject" class="sr-only">SUBJECT:</label>
+                    <br>
+                    <input type="text" class="form-control input-lg" id="subject" name="subject" placeholder="Subject" value="">
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <div class="form-group">
+                    <label for="message" class="sr-only">MESSAGE:</label>
+                    <br>
+                    <textarea class="form-control input-lg" rows="8" id="message" name="message" placeholder="Message" minlength=20></textarea>
+                  </div>
+                  	<br>
+                  <div>
+                  	<button type="submit" class="btn btn-default btn-lg btn-block" id="mySubmitButton" data-loading-text="Sending...">SEND MESSAGE</button>
+                  </div>
+  			</div>
 	</div>
+
 </body>
+<script src="contact_action.js"></script>
 </html>
